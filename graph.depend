@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1589588265 source:c:\users\krash\projects\gggggr\src\circle.cpp
+	"Circle.h"
+
+1589589158 c:\users\krash\projects\gggggr\include\circle.h
+	"Paint.h"
+
+1589589157 c:\users\krash\projects\gggggr\include\paint.h
+	<iostream>
+	<graphics.h>
+	<vector>
+	<queue>
+	<conio.h>
+	<cstdlib>
+	<cstdio>
+	<cmath>
+	<stack>
+
+1589588266 source:c:\users\krash\projects\gggggr\src\line.cpp
+	"Line.h"
+
+1589589166 c:\users\krash\projects\gggggr\include\line.h
+	"Paint.h"
+
+1589749781 source:c:\users\krash\projects\graph\src\circle.cpp
+	"Circle.h"
+
+1589749781 c:\users\krash\projects\graph\include\circle.h
+	"Paint.h"
+
+1589749781 c:\users\krash\projects\graph\include\paint.h
+	<iostream>
+	<graphics.h>
+	<vector>
+	<queue>
+	<conio.h>
+	<cstdlib>
+	<cstdio>
+	<cmath>
+	<stack>
+
+1589749781 source:c:\users\krash\projects\graph\src\line.cpp
+	"Line.h"
+
+1589819736 c:\users\krash\projects\graph\include\line.h
+	"Paint.h"
+
+1589819194 source:c:\users\krash\projects\graph\src\graph.cpp
+	"Graph.h"
+
+1589749781 c:\users\krash\projects\graph\include\graph.h
+	"Paint.h"
+	"Node.h"
+	"Edge.h"
+	<fstream>
+
+1589749781 c:\users\krash\projects\graph\include\node.h
+	"Paint.h"
+	"Circle.h"
+
+1589819525 c:\users\krash\projects\graph\include\edge.h
+	"Line.h"
+	"Circle.h"
+	"Paint.h"
+
+1589750228 source:c:\users\krash\projects\graph\src\edge.cpp
+	"Edge.h"
+
+1589749781 source:c:\users\krash\projects\graph\src\node.cpp
+	"Node.h"
+
+1589748685 source:c:\users\krash\projects\graph\main.cpp
+	"Paint.h"
+	"Circle.h"
+	"Line.h"
+	"Edge.h"
+	"Node.h"
+	"Graph.h"
+
