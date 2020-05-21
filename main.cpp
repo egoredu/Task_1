@@ -4,20 +4,22 @@
 #include "Edge.h"
 #include "Node.h"
 #include "Graph.h"
+#include<fstream>
+
 
 int main() {
     int gd = CUSTOM;
     int gm = CUSTOM_MODE(1280, 720);
     int n;
     vector< vector<int> > matr;
-    cout << "Enter n: " << '\n';
-    cin >> n;
-    cout << "Enter weight matrix: " << '\n';
+    ifstream fin("input.txt");
+
+    fin >> n;
     matr.resize(n);
     for (int i = 0; i < n; i++){
         matr[i].resize(n);
         for (int j = 0; j < n; j++)
-            cin >> matr[i][j];
+            fin >> matr[i][j];
     }
     Graph g(n, matr);
     initgraph(&gd, &gm, "");
